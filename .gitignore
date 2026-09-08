@@ -1,0 +1,10 @@
+.env
+env
+environment
+env.bak
+environment.bak
+env.old
+environment.old
+venv/
+.venv/
+
