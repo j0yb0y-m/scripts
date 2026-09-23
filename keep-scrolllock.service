@@ -1,0 +1,12 @@
+[Unit]
+Description=Keep external USB keyboard (C0F4:07C0) Scroll Lock LED always on
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/keep-scrolllock.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
